@@ -1,0 +1,11 @@
+#graphql
+
+type Query {
+    tenants: [Tenant],
+}
+
+type Tenant {
+    id: ID!,
+    title: String,
+    description: String,
+}
